@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Weekly Schedule</title>
+  <style>
+    body {
+      background: #fafafc;
+      font-family: 'Poppins', sans-serif;
+    }
+    .rainbow {
+      width: 100%;
+      height: 80px;
+      background: linear-gradient(120deg, #fed6e3 0%, #b4e1fa 40%, #fff7a1 100%);
+      border-radius: 0 0 60px 60px;
+      margin-bottom: -40px;
+    }
+    .schedule-header {
+      text-align: center;
+      font-family: 'Poppins', cursive;
+      font-size: 2.8em;
+      color: #183651;
+      margin: 0.5em 0 0.3em 0;
+      font-weight: bold;
+    }
+    .stars {
+      text-align: center;
+      font-size: 2em;
+      color: #fcdb3a;
+      margin-bottom: 0.4em;
+    }
+    .schedule-table {
+      margin: 0 auto;
+      border-collapse: separate;
+      border-spacing: 12px;
+      background: transparent;
+    }
+    .schedule-table th {
+      background: #f7cade;
+      color: #183651;
+      font-size: 1.2em;
+      border-radius: 18px;
+      padding: 12px;
+      font-weight: 600;
+      text-align: center;
+    }
+    .schedule-table td {
+      border-radius: 18px;
+      padding: 12px 0;
+      width: 120px;
+      text-align: center;
+    }
+    .time-cell {
+      background: #b3eafc;
+      color: #183651;
+      font-weight: bold;
+      border-radius: 18px;
+      width: 90px;
+      font-size: 1.1em;
+    }
+    .mon-cell, .wed-cell, .fri-cell {
+      background: #f7cade;
+    }
+    .tue-cell, .thu-cell {
+      background: #fff7be;
+      color: #183651;
+    }
+    .note-row td {
+      background: #b3eafc;
+      border-radius: 18px;
+      color: #222;
+      font-size: 1em;
+      font-weight: 500;
+    }
+  </style>
+</head>
+<body>
+  <div class="rainbow"></div>
+  <div class="stars">✨</div>
+  <div class="schedule-header">Weekly schedule ✨</div>
+  <table class="schedule-table">
+    <tr>
+      <th></th>
+      <th class="mon-cell">Monday</th>
+      <th class="tue-cell">Tuesday</th>
+      <th class="wed-cell">Wednesday</th>
+      <th class="thu-cell">Thursday</th>
+      <th class="fri-cell">Friday</th>
+    </tr>
+    <!-- Repeat similar rows for each time slot -->
+    <tr>
+      <td class="time-cell">08:00</td>
+      <td class="mon-cell"></td>
+      <td class="tue-cell"></td>
+      <td class="wed-cell"></td>
+      <td class="thu-cell"></td>
+      <td class="fri-cell"></td>
+    </tr>
+    <tr>
+      <td class="time-cell">09:00</td>
+      <td class="mon-cell"></td>
+      <td class="tue-cell"></td>
+      <td class="wed-cell"></td>
+      <td class="thu-cell"></td>
+      <td class="fri-cell"></td>
+    </tr>
+    <tr>
+      <td class="time-cell">10:00</td>
+      <td class="mon-cell"></td>
+      <td class="tue-cell"></td>
+      <td class="wed-cell"></td>
+      <td class="thu-cell"></td>
+      <td class="fri-cell"></td>
+    </tr>
+    <tr>
+      <td class="time-cell">11:00</td>
+      <td class="mon-cell"></td>
+      <td class="tue-cell"></td>
+      <td class="wed-cell"></td>
+      <td class="thu-cell"></td>
+      <td class="fri-cell"></td>
+    </tr>
+    <tr>
+      <td class="time-cell">12:00</td>
+      <td class="mon-cell"></td>
+      <td class="tue-cell"></td>
+      <td class="wed-cell"></td>
+      <td class="thu-cell"></td>
+      <td class="fri-cell"></td>
+    </tr>
+    <tr>
+      <td class="time-cell">13:00</td>
+      <td class="mon-cell"></td>
+      <td class="tue-cell"></td>
+      <td class="wed-cell"></td>
+      <td class="thu-cell"></td>
+      <td class="fri-cell"></td>
+    </tr>
+    <tr>
+      <td class="time-cell">14:00</td>
+      <td class="mon-cell"></td>
+      <td class="tue-cell"></td>
+      <td class="wed-cell"></td>
+      <td class="thu-cell"></td>
+      <td class="fri-cell"></td>
+    </tr>
+    <tr>
+      <td class="time-cell">15:00</td>
+      <td class="mon-cell"></td>
+      <td class="tue-cell"></td>
+      <td class="wed-cell"></td>
+      <td class="thu-cell"></td>
+      <td class="fri-cell"></td>
+    </tr>
+    <tr>
+      <td class="time-cell">16:00</td>
+      <td class="mon-cell"></td>
+      <td class="tue-cell"></td>
+      <td class="wed-cell"></td>
+      <td class="thu-cell"></td>
+      <td class="fri-cell"></td>
+    </tr>
+    <!-- Note row at the bottom -->
+    <tr class="note-row">
+      <td colspan="6">Note:</td>
+    </tr>
+  </table>
+</body>
+</html>
