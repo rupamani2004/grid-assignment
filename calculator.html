@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Masai Calculator</title>
+  <style>
+    body {
+      background: #f6f9fa;
+      font-family: 'Segoe UI', Arial, sans-serif;
+    }
+    .container {
+      width: 340px;
+      margin: 60px auto;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 0 14px #ccc;
+      padding: 20px 28px;
+    }
+    .title {
+      text-align: center;
+      font-size: 2em;
+      font-weight: bold;
+      color: teal;
+      margin-bottom: 20px;
+    }
+    .display {
+      background: #fff;
+      border: 2px solid #eee;
+      border-radius: 8px;
+      height: 36px;
+      margin-bottom: 22px;
+      padding: 0 10px;
+      font-size: 1.5em;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+    }
+    .keys {
+      display: grid;
+      grid-template-columns: repeat(4, 52px);
+      grid-template-rows: repeat(4, 52px);
+      gap: 10px;
+      justify-content: center;
+    }
+    .key {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.2em;
+      font-weight: bold;
+      border-radius: 8px;
+      background: #fff;
+      border: 2px solid #ccc;
+      color: #222;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+    .key:active {
+      background: #eee;
+    }
+    /* Custom styles for operator and clear keys */
+    .key.operator {
+      background: #000;
+      color: #fff;
+    }
+    .key.clear {
+      background: #ff2a2a;
+      color: #fff;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="title">Masai Calculator</div>
+    <div class="display"></div>
+    <div class="keys">
+      <div class="key">1</div>
+      <div class="key">2</div>
+      <div class="key">3</div>
+      <div class="key operator">+</div>
+      <div class="key">4</div>
+      <div class="key">5</div>
+      <div class="key">6</div>
+      <div class="key operator">-</div>
+      <div class="key">7</div>
+      <div class="key">8</div>
+      <div class="key">9</div>
+      <div class="key operator">*</div>
+      <div class="key clear">C</div>
+      <div class="key">0</div>
+      <div class="key operator">/</div>
+      <div class="key operator">=</div>
+    </div>
+  </div>
+</body>
+</html>
