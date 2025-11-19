@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Coffee Card Layout</title>
+  <style>
+    body {
+      background: #f7f6f4;
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 40px 0;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 32px;
+    }
+    .card {
+      background: #fff;
+      border-radius: 18px;
+      box-shadow: 0 2px 18px rgba(0,0,0,0.09);
+      padding: 28px 24px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .card-title {
+      font-size: 1.23em;
+      font-weight: 600;
+      color: #353535;
+    }
+    .card-price {
+      font-size: 1.15em;
+      font-weight: 600;
+      color: #c8a610;
+      background: #f7f6f4;
+      border-radius: 6px;
+      padding: 3px 10px;
+    }
+    .card-details {
+      margin-top: 12px;
+      color: #888;
+      font-size: 0.93em;
+    }
+    /* MEDIA QUERIES */
+    @media (max-width: 900px) {
+      .container {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+    @media (max-width: 600px) {
+      .container {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <div class="card-header">
+        <span class="card-title">Cappuccino</span>
+        <span class="card-price">$49</span>
+      </div>
+      <div class="card-details">
+        Usage of the Internet is becoming more common due to rapid advance.
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">
+        <span class="card-title">Americano</span>
+        <span class="card-price">$49</span>
+      </div>
+      <div class="card-details">
+        Usage of the Internet is becoming more common due to rapid advance.
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">
+        <span class="card-title">Espresso</span>
+        <span class="card-price">$49</span>
+      </div>
+      <div class="card-details">
+        Usage of the Internet is becoming more common due to rapid advance.
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">
+        <span class="card-title">Macchiato</span>
+        <span class="card-price">$49</span>
+      </div>
+      <div class="card-details">
+        Usage of the Internet is becoming more common due to rapid advance.
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">
+        <span class="card-title">Mocha</span>
+        <span class="card-price">$49</span>
+      </div>
+      <div class="card-details">
+        Usage of the Internet is becoming more common due to rapid advance.
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">
+        <span class="card-title">Coffee Latte</span>
+        <span class="card-price">$49</span>
+      </div>
+      <div class="card-details">
+        Usage of the Internet is becoming more common due to rapid advance.
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">
+        <span class="card-title">Piccolo Latte</span>
+        <span class="card-price">$49</span>
+      </div>
+      <div class="card-details">
+        Usage of the Internet is becoming more common due to rapid advance.
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">
+        <span class="card-title">Ristretto</span>
+        <span class="card-price">$49</span>
+      </div>
+      <div class="card-details">
+        Usage of the Internet is becoming more common due to rapid advance.
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">
+        <span class="card-title">Affogato</span>
+        <span class="card-price">$49</span>
+      </div>
+      <div class="card-details">
+        Usage of the Internet is becoming more common due to rapid advance.
+      </div>
+    </div>
+  </div>
+</body>
+</html>
