@@ -1,111 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Masai Investors</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Masai Investors</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background: #f5f5f5;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+    }
+    .card {
+      background: white;
+      border-radius: 8px;
+      padding: 15px;
+      text-align: center;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    .card img {
+      width: 120px;
+      height: 120px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-bottom: 12px;
+    }
+    .card .name {
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 4px;
+    }
+    .card .role {
+      font-size: 14px;
+      color: #555;
+    }
 
-    <style>
-        body{
-            font-family: Arial, sans-serif;
-            padding: 20px;
-        }
-
-        h1{
-            text-align: center;
-            margin-bottom: 30px;
-        }
-
-        .grid{
-            display: grid;
-            grid-template-columns: repeat(4, 1fr); 
-            gap: 20px;
-        }
-
-        .card{
-            border: 1px solid #ccc;
-            border-radius: 10px;
-            overflow: hidden;
-            background: #fff;
-        }
-
-        .card img{
-            width: 100%;
-            height: 250px;
-            object-fit: cover;
-        }
-
-        .info{
-            padding: 15px;
-        }
-
-        .info h3{
-            margin: 0;
-        }
-
-        .info p{
-            margin: 5px 0;
-            color: gray;
-        }
-
-        .company-logo{
-            width: 80px;
-            margin-top: 10px;
-        }
-
-
-        @media screen and (max-width: 992px){
-            .grid{
-                grid-template-columns: repeat(3, 1fr);
-            }
-        }
-
-        @media screen and (max-width: 600px){
-            .grid{
-                grid-template-columns: repeat(2, 1fr);
-            }
-        }
-
-    </style>
+    @media (max-width: 992px) {
+      .grid {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+    @media (max-width: 600px) {
+      .grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+  </style>
 </head>
 <body>
 
-    <h1>Masai Investors</h1>
+  <h1>Masai School Investors</h1>
 
-    <div class="grid">
-
-        <div class="card">
-            <img src="IMAGE_LINK_1" alt="">
-            <div class="info">
-                <h3>Vijay Shekhar Sharma</h3>
-                <p>Founder & CEO</p>
-                <img class="company-logo" src="LOGO_LINK_1">
-            </div>
-        </div>
-
-        
-        <div class="card">
-            <img src="IMAGE_LINK_2" alt="">
-            <div class="info">
-                <h3>Kunal Shah</h3>
-                <p>Founder</p>
-                <img class="company-logo" src="LOGO_LINK_2">
-            </div>
-        </div>
-
-        
-        <div class="card">
-            <img src="IMAGE_LINK_3" alt="">
-            <div class="info">
-                <h3>Amrish Rau</h3>
-                <p>CEO</p>
-                <img class="company-logo" src="LOGO_LINK_3">
-            </div>
-        </div>
-
-        
-
+  <div class="grid">
+    <!-- 1: Vijay Shekhar Sharma -->
+    <div class="card">
+      <img src="C:\Users\RUPA\Pictures\masai\download.jpeg"alt="Vijay Shekhar Sharma">
+      <div class="name">Vijay Shekhar Sharma</div>
+      <div class="role">Founder & CEO, Paytm</div>
     </div>
 
+    <!-- 2: Kunal Shah -->
+    <div class="card">
+      <img src="C:\Users\RUPA\Pictures\masai\download (1).jpeg"alt="Kunal Shah">
+      <div class="name">Kunal Shah</div>
+      <div class="role">Founder, CRED</div>
+    </div>
+
+    <!-- 3: Amrish Rau -->
+    <div class="card">
+      <img src="C:\Users\RUPA\Pictures\masai\download (2).jpeg" alt="Amrish Rau">
+      <div class="name">Amrish Rau</div>
+      <div class="role">CEO, Pine Labs</div>
+    </div>
+
+    <!-- 4: Sampad Swain -->
+    <div class="card">
+      <img src=https://www.google.com/imgres?q=Sampad%20Swain%20%E2%80%93%20Investor&imgurl=https%3A%2F%2Fs3.ap-south-1.amazonaws.com%2Fassets.ynos.in%2Finvestor-profile-photos%2FI_902299.jpeg&imgrefurl=https%3A%2F%2Fwww.ynos.in%2Fangel-investor%2Fsampad-swain-902299&docid=_ddG132yho9BPM&tbnid=7klVRWICSdCR3M&vet=12ahUKEwi88Zq95_6QAxWz4zgGHVSBFDUQM3oECCEQAA..i&w=200&h=200&hcb=2&ved=2ahUKEwi88Zq95_6QAxWz4zgGHVSBFDUQM3oECCEQAA alt="Sampad Swain">
+      <div class="name">Sampad Swain</div>
+      <div class="role">Investor</div>
+    </div>
+
+    <!-- 5: Ankush Sachdeva -->
+    <div class="card">
+      <img src="C:\Users\RUPA\Pictures\masai\download (3).jpeg" alt="Ankush Sachdeva">
+      <div class="name">Ankush Sachdeva</div>
+      <div class="role">Investor</div>
+    </div>
+
+    <!-- 6: Bhanu Pratap Singh -->
+    <div class="card">
+      <img src="C:\Users\RUPA\Pictures\masai\images.jpeg" alt="Bhanu Pratap Singh">
+      <div class="name">Bhanu Pratap Singh</div>
+      <div class="role">Investor</div>
+    </div>
+
+    <!-- 7: Farid Ahsan -->
+    <div class="card">
+      <img src="C:\Users\RUPA\Pictures\masai\download (4).jpeg" alt="Farid Ahsan">
+      <div class="name">Farid Ahsan</div>
+      <div class="role">Investor</div>
+    </div>
+
+    <!-- 8: Amit Kumar Agarwal -->
+    <div class="card">
+      <img src="C:\Users\RUPA\Pictures\masai\download (5).jpeg" alt="Amit Kumar Agarwal">
+      <div class="name">Amit Kumar Agarwal</div>
+      <div class="role">Investor</div>
+    </div>
+
+    <!-- 9: Vijay Shekhar Sharma (duplicate) -->
+    <div class="card">
+      <img src="C:\Users\RUPA\Pictures\masai\download.jpeg" alt="Vijay Shekhar Sharma">
+      <div class="name">Vijay Shekhar Sharma</div>
+      <div class="role">Founder & CEO, Paytm</div>
+    </div>
+
+    <!-- 10: Kunal Shah (duplicate) -->
+    <div class="card">
+      <img src="C:\Users\RUPA\Pictures\masai\download (1).jpeg"alt="Kunal Shah">
+      <div class="name">Kunal Shah</div>
+      <div class="role">Founder, CRED</div>
+    </div>
+
+    <!-- 11: Amrish Rau (duplicate) -->
+    <div class="card">
+      <img src="C:\Users\RUPA\Pictures\masai\download (2).jpeg" alt="Amrish Rau">
+      <div class="name">Amrish Rau</div>
+      <div class="role">CEO, Pine Labs</div>
+    </div>
+
+    <!-- 12: Vijay Shekhar Sharma (duplicate) -->
+    <div class="card">
+      <img src="C:\Users\RUPA\Pictures\masai\download.jpeg" alt="Vijay Shekhar Sharma">
+      <div class="name">Vijay Shekhar Sharma</div>
+      <div class="role">Founder & CEO, Paytm</div>
+    </div>
+
+    <!-- 13: Kunal Shah (duplicate) -->
+    <div class="card">
+      <img src="C:\Users\RUPA\Pictures\masai\download (1).jpeg" alt="Kunal Shah">
+      <div class="name">Kunal Shah</div>
+      <div class="role">Founder, CRED</div>
+    </div>
+
+  </div>
 </body>
 </html>
